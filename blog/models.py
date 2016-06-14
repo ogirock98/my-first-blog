@@ -1,5 +1,5 @@
 from django.db import models
-from pytz import timezone
+from django.utils import timezone
 
 
 class Post(models.Model):
